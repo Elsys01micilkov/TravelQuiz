@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 935px;
+}
+
+#homepageimage{
+    width: 100%;
+    height: 100%;
+}    
+
+.mainbutton{
+    border-radius: 15px;
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    margin-top: 500px;
+    margin-left: 900px;
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainbutton:hover{
+    transition: ease-in-out 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.hometitle{
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 825px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}

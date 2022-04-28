@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(82, 80, 80);
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 20rem;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0,102, 255) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    transition: trasnform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.fa-crown{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.destination-details div{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#destination-description{
+    display: flex;
+    border: 2px solid black;
+    margin-left: 45rem;
+    font-size: 2.5rem;
+    width: 50rem;
+    height: 50rem;
+}
+
+#destination-collage{
+    display: flex;
+    margin-left: 100rem;
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    margin-top: -50rem;
+}
+
+#redobutton{
+    border-radius: 15px;
+    background-color: rgb(168, 95, 12);
+    color: white;
+    border: 1px solid black;
+    font-size: 5rem;
+    text-align: center;
+    position: absolute;
+    height: 50px;
+    width: 270px;
+    margin-top: 2.5rem;
+    margin-left: 57rem;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#redobutton:hover{
+    background-color: white;
+    color: rgb(168, 95, 12);
+    transition: ease-in-out 0.5s;
+}
+
+#bookbutton{
+    border-radius: 15px;
+    background-color: rgb(7, 133, 13);
+    color: white;
+    border: 1px solid black;
+    font-size: 5rem;
+    text-align: center;
+    position: absolute;
+    height: 50px;
+    width: 270px;
+    margin-top: 2.5rem;
+    margin-left: 111rem;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bookbutton:hover{
+    background-color: white;
+    color: rgb(7, 133, 13);
+    transition: ease-in-out 0.5s;
+}
