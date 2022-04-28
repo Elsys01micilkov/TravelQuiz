@@ -269,7 +269,7 @@ choices.forEach(choice => {
             else if(selectedAnswer==2)
             {
                 IcelandScore+=2
-                Malta+=2
+                MaltaScore+=2
                 CroatiaScore+=2
             }
             else
